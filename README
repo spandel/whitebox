@@ -1,0 +1,17 @@
+ABOUT WHITEBOX
+
+Whitebox is a highly customizable javascript lightbox made as a jQuery plugin.
+It is build upon the thought that no one who uses it should have to know any javascript.
+It is customized by inserting data-attributes int to the img-tag in the html, and by making your own themes in css.
+
+Obviously it is also open-source and totally free to use.
+
+For more info:
+http://www.student.bth.se/~dasp11/whitebox
+
+VERSION 1.0
+
+- First version is completed!*
+
+*Version 1.0 is not bug tested, nor is it tested fully in all browsers.
+No guarantees can be made that it will work as stated in all cases.
