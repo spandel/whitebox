@@ -1,0 +1,356 @@
+/**
+ * Here begins the default theme!
+ *
+ */
+#whitebox-default-outerbox{
+	background:rgba(0,0,0,0.5);
+	width:600px;
+	padding:10px;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+}
+#whitebox-default-innerbox{
+	background:#fff;
+	padding:5px;
+}
+#whitebox-default-text-area{
+	font-size: 10px;
+	color:#555;
+	height:10px;
+	text-align: center;
+	padding:5px;	
+	background:rgba(255,255,255,0.5);
+}
+#whitebox-default-bg{
+	opacity:0.7;
+	background: #000;
+}
+#whitebox-default-prev,#whitebox-default-next{
+	position:relative;
+	opacity: 0;
+	cursor: pointer;
+	color:#fff;
+	vertical-align: text-bottom;
+	transition:opacity 0.3s;
+	-moz-transition:opacity 0.3s; /* Firefox 4 */
+	-webkit-transition:opacity 0.3s; /* Safari and Chrome */
+	-o-transition:opacity 0.3s; /* Opera */
+}
+#whitebox-default-prev span,#whitebox-default-next span{
+	position: absolute;
+	bottom:0;
+}
+#whitebox-default-prev span{
+	left:0;
+	padding:1em;
+}
+#whitebox-default-next span{
+	right:0;
+	padding:1em;
+}
+#whitebox-default-prev:hover{	
+	opacity: 1;	
+	background: -moz-linear-gradient(left, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+#whitebox-default-next:hover{	
+	opacity: 1;	
+	background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 */
+}
+#whitebox-default-button-wrapper{
+
+}
+#whitebox-default-slider{
+	height:20px;
+	width:100px;
+	bottom:0;
+	right:0;
+
+	background:rgba(0,0,0,0.5);
+
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#whitebox-default-slider-link{
+	height:20px;
+	width:100px;
+	bottom:0;
+	right:0;
+	margin-bottom: 5px;
+	
+}
+#whitebox-default-slider-link span{
+	font-size: 10px;
+	color:#fff;
+	cursor: pointer;
+}
+#whitebox-default-exit{	
+	height:20px;
+	top:0;
+	right:0;
+
+}
+#whitebox-default-exit-link{
+	height:15px;
+	width:20px;
+	bottom:0;
+	right:0;
+
+	background:rgba(0,0,0,0.5);
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	cursor: pointer;
+}
+#whitebox-default-exit-link span{
+	font-size: 10px;
+	color:#fff;
+	
+}
+#whitebox-default-imgnr{
+	height:20px;
+	width:100px;
+	bottom:0;
+	left:0;
+	background:rgba(0,0,0,0.5);
+
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#whitebox-default-imgnr-link{
+	height:20px;
+	width:100px;
+	bottom:0;
+	left:0;
+	margin-bottom:5px;	
+}
+#whitebox-default-imgnr-link span{
+	font-size: 10px;
+	color:#fff;
+	cursor: pointer;
+	margin-bottom:10px;
+}
+#whitebox-default-thumbnail-wrapper{
+	position:absolute;
+	left:50%;
+	top:-40px;
+	transition:top 0.3s;
+	-moz-transition:top 0.3s; /* Firefox 4 */
+	-webkit-transition:top 0.3s; /* Safari and Chrome */
+	-o-transition:top 0.3s; /* Opera */
+}
+#whitebox-default-thumbnail-wrapper:hover{
+	top:0px;
+}
+#whitebox-default-thumbnails{
+
+	position:relative;
+	left:-50%;
+	padding:5px;
+	background:rgba(0,0,0,0.5);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+	float:middle;
+}
+.whitebox-default-thumb{
+	display:inline;
+	padding:5px;
+	cursor: pointer;
+}
+/**
+ * End of the default theme!
+ *
+ */
+
+
+
+/**
+ * Here begins the bright theme!
+ *
+ */
+
+#whitebox-bright-outerbox{
+	background:#fff;
+	width:600px;
+	padding:10px;
+	box-shadow: 0px 0px 10px #888888;
+}
+#whitebox-bright-innerbox{
+	background:#fff;
+	padding:5px;
+}
+#whitebox-bright-text-area{
+	font-size: 10px;
+	color:#555;
+	height:10px;
+	text-align: center;
+	padding:5px;	
+	background:rgba(255,255,255,0.3);
+}
+#whitebox-bright-bg{
+	opacity:0.7;
+	background: #fff;
+}
+#whitebox-bright-prev,#whitebox-bright-next{
+	position:relative;
+	opacity: 0;
+	cursor: pointer;
+	color:#fff;
+	vertical-align: text-bottom;
+	transition:opacity 0.3s;
+	-moz-transition:opacity 0.3s; /* Firefox 4 */
+	-webkit-transition:opacity 0.3s; /* Safari and Chrome */
+	-o-transition:opacity 0.3s; /* Opera */
+}
+#whitebox-bright-prev span,#whitebox-bright-next span{
+	position: absolute;
+	bottom:0;
+}
+#whitebox-bright-prev span{
+	left:0;
+	padding:1em;
+}
+#whitebox-bright-next span{
+	right:0;
+	padding:1em;
+}
+#whitebox-bright-prev:hover{	
+	opacity: 1;	
+	background: -moz-linear-gradient(left, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+#whitebox-bright-next:hover{	
+	opacity: 1;	
+	background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 */
+}
+#whitebox-bright-button-wrapper{
+
+}
+#whitebox-bright-slider{
+	height:20px;
+	width:100%;
+	bottom:0;
+	right:0;
+
+	background:#fff;
+	box-shadow: 0px 5px 5px #888888;
+
+}
+#whitebox-bright-slider-link{
+	height:20px;
+	width:100px;
+	bottom:0;
+	right:0;
+	margin-bottom: 5px;
+	
+}
+#whitebox-bright-slider-link span{
+	font-size: 10px;
+	color:#555;
+	cursor: pointer;
+}
+#whitebox-bright-exit{	
+	height:30px;
+	top:0;
+	right:0;
+
+}
+#whitebox-bright-exit-link{
+	height:15px;
+	width:20px;
+	bottom:0;
+	right:0;
+
+
+	cursor: pointer;
+}
+#whitebox-bright-exit-link span{
+	font-size: 10px;
+	color:#555;
+	
+}
+#whitebox-bright-imgnr{
+	height:20px;
+	width:100px;
+	bottom:0;
+	left:0;
+	background:#fff;
+
+}
+#whitebox-bright-imgnr-link{
+	height:20px;
+	width:100px;
+	bottom:0;
+	left:0;
+	margin-bottom:5px;
+	
+}
+#whitebox-bright-imgnr-link span{
+	font-size: 10px;
+	color:#555;
+	cursor: pointer;
+	margin-bottom:10px;
+}
+#whitebox-bright-thumbnail-wrapper{
+	position:absolute;
+	left:-40px;
+	top:20px;
+	transition:left 0.3s;
+	-moz-transition:left 0.3s; /* Firefox 4 */
+	-webkit-transition:left 0.3s; /* Safari and Chrome */
+	-o-transition:left 0.3s; /* Opera */
+
+}
+#whitebox-bright-thumbnail-wrapper:hover{
+	left:0px;
+}
+#whitebox-bright-thumbnails{
+	position:absolute;
+	padding:5px;
+	background:#fff;
+	box-shadow: 0px 5px 5px #888888;
+}
+.whitebox-bright-thumb{
+	display:inline;
+	padding:5px;
+	cursor: pointer;
+}
+/**
+ * End of the bright theme!
+ *
+ */
